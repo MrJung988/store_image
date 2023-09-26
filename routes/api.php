@@ -20,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('image', [ImageController::class, 'storeImage']);
+Route::post('multiple-image', [ImageController::class, 'storeMultipleImage']);
